@@ -37,13 +37,11 @@ $rowSetting = mysqli_fetch_assoc($querySetting);
 <form action="" method="post">
     <div class="mb-3">
         <label for="" class="form-label">Email address</label>
-        <input value="<?= $rowSetting['email'] ?>" type="email" class="form-control" name="email"
-            placeholder="Email address">
+        <input value="<?= $rowSetting['email'] ?>" type="email" class="form-control" name="email" placeholder="Email address">
     </div>
     <div class="mb-3">
         <label for="">Telpon Website</label>
-        <input value="<?= $rowSetting['no_tlp_website'] ?>" type="text" class="form-control" name="no_tlp_website"
-            placeholder="Telpon Website">
+        <input value="<?= $rowSetting['no_tlp_website'] ?>" type="text" class="form-control" name="no_tlp_website" placeholder="Telpon Website">
     </div>
     <div class="mb-3">
         <label for="">Alamat</label>
@@ -59,13 +57,11 @@ $rowSetting = mysqli_fetch_assoc($querySetting);
     </div>
     <div class="mb-3">
         <label for="">Twitter Link</label>
-        <input value="<?= $rowSetting['twitter'] ?>" type="text" class="form-control" name="twitter"
-            placeholder="Twitter  Link">
+        <input value="<?= $rowSetting['twitter'] ?>" type="text" class="form-control" name="twitter" placeholder="Twitter  Link">
     </div>
     <div class="mb-3">
         <label for="">Linkedin</label>
-        <input value="<?= $rowSetting['linkedin'] ?>" type="text" class="form-control" name="linkedin"
-            placeholder="Linkedin Link">
+        <input value="<?= $rowSetting['linkedin'] ?>" type="text" class="form-control" name="linkedin" placeholder="Linkedin Link">
     </div>
     <div class="mb-3">
         <label for="">Logo</label>

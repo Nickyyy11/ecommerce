@@ -24,31 +24,32 @@ if (isset($_POST['simpan'])) {
                 <div class="col-md-8 col-lg-8 pb-4">
 
                     <?php if (isset($_SESSION['id_member'])) : ?>
-                        Selamat Datang di Website E-Commerce <?= $data['nama_lengkap'] ?>
+                    Selamat Datang di Website E-Commerce <?= $data['nama_lengkap'] ?>
                     <?php else :
                     ?>
-                        <form method="post">
-                            <div class="row">
-                                <div class="col-12">
-
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-black" for="email">Email</label>
-                                <input name="email" type="email" class="form-control" id="email">
-                            </div>
+                    <form method="post">
+                        <div class="row">
                             <div class="col-12">
-                                <div class="form-group mb-3">
-                                    <label class="text-black" for="lname">Password</label>
-                                    <input name="password" type="text" class="form-control" id="lname">
-                                </div>
+                                awdadadadadawd
                             </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="text-black" for="email">Email</label>
+                            <input name="email" type="email" class="form-control" id="email">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <label class="text-black" for="lname">Password</label>
+                                <input name="password" type="text" class="form-control" id="lname">
+                            </div>
+                        </div>
 
 
 
-                            <button name="simpan" value="Simpan" type="submit" class="btn btn-primary-hover-outline">LOGIN</button>
-                            <a href="?pg=member">Register</a>
-                        </form>
+                        <button name="simpan" value="Simpan" type="submit"
+                            class="btn btn-primary-hover-outline">LOGIN</button>
+                        <a href="?pg=member">Register</a>
+                    </form>
                     <?php endif ?>
 
 
